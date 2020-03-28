@@ -42,8 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BillPayment.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recharge.cs" />
+    <Compile Include="Transfer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
