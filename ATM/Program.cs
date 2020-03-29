@@ -54,10 +54,6 @@ namespace ATM
                             transfer = Int32.Parse(Console.ReadLine());
                             if (transfer % 1 != 0)
                             {
-                                Console.WriteLine();
-                            }
-                            else if (transfer > (amount - 1))
-                            {
                                 Console.WriteLine("Insufficient Funds");
                             }
                             else
@@ -136,10 +132,6 @@ namespace ATM
                             recharge = Int32.Parse(Console.ReadLine());
                             if (recharge % 1 != 0)
                             {
-                                Console.WriteLine();
-                            }
-                            else if (recharge > (amount - 1))
-                            {
                                 Console.WriteLine("Insufficient Funds");
                             }
                             else
@@ -157,10 +149,6 @@ namespace ATM
                             Console.WriteLine("Enter Amount");
                             recharge = Int32.Parse(Console.ReadLine());
                             if (recharge % 1 != 0)
-                            {
-                                Console.WriteLine();
-                            }
-                            else if (recharge > (amount - 1))
                             {
                                 Console.WriteLine("Insufficient Funds");
                             }
